@@ -1,0 +1,163 @@
+body{
+    background-image: url('../img/Fondo\ pagina_3.jpg');
+    background-size: cover;
+}
+header{
+    text-align: center;
+}
+.custom-nav .nav-link{
+    font-size: 20px;
+    color:black;
+}
+
+.custom-nav .nav-link.active,
+.custom-nav .nav-link:focus,
+.custom-nav .nav-link:hover {
+    background-color: transparent;
+    color:black;
+}
+
+.titulo-carrusel {
+    position:center;
+    top: 10px;
+    width: 100%;
+    text-align: center;
+    color: blanchedalmond;
+    font-family: 'Dancing+Script', cursive;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.carousel-item img {
+    height: 400px; /*Cambia la altura para hacer el carrusel mas pequeño*/
+    object-fit: cover; /*Asegura que la imagen mantenga su porporcion*/
+}
+
+.carousel{
+    width: 80%; /*Ajusta el ancho de carrusel*/
+    margin: 0 auto; /*Espacio superior e inferior*/
+}
+
+.container{
+    max-width: 100%; /*Se adapta al ancho de la pantalla */
+    padding: 15px; /*Espacio interno */
+    margin: 0 auto; /*Centra el contenedor hprizontalmente */
+
+}
+
+footer{
+    background-color: blanchedalmond;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.footer-icons a img{
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s;
+}
+.footer-icons a img:hover{
+    transform: scale(1.2);
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Crea columnas con un tamaño mínimo de 300px */
+    gap: 20px;
+}
+
+.card {
+    background-color: #f1f1f1;
+    height: 400px; /* Todas las tarjetas tendrán la misma altura */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.card-img-top {
+    height: 200px; /* Define una altura fija para todas las imágenes */
+    object-fit: cover; /* Ajusta la imagen sin distorsión, recortando si es necesario */
+    width: 100%; /* Asegura que la imagen ocupe todo el ancho del contenedor */
+}
+
+/*Estilo de seccion Quienes Somos */
+
+/* Sección de introducción */
+.about-intro h2 {
+    color: #070707; /* Café oscuro */
+}
+.about-intro p {
+    color: #f3efef; /* Texto oscuro */
+}
+.about-intro img {
+    border: 3px solid #6B4226; /* Borde café */
+}
+
+/* Sección de Misión, Visión y Valores */
+.mission-vision-values {
+    background-color: #3E8EDE; /* Azul suave */
+}
+.mission-vision-values h3 {
+    color: #fff; /* Texto blanco */
+}
+.mission-vision-values p {
+    color: #f5f5f5; /* Texto blanco claro */
+}
+/* Sección de equipo */
+.team-section h2 {
+    color: #070707; /* Verde oscuro */
+}
+.team-section img {
+    border: 3px solid #070707; /* Borde café */
+    width: 150px;
+    height: 150px;
+    object-fit: cover; /* Ajustar imagenes */
+}
+.team-section h5 {
+    color: #6B4226; /* Café */
+}
+
+
+
+
+
+
+
+
+
+/*Estilo de seccion de contactanos*/
+.contact-section h2 {
+    color: #1b1a1a; /* Café oscuro */
+}
+
+.form-control {
+    border: 2px solid #6B4226; /* Borde café para inputs */
+}
+
+button.btn-primary {
+    background-color: #006400; /* Verde para botones */
+    border: none;
+}
+
+button.btn-primary:hover {
+    background-color: #004b23; /* Verde más oscuro al pasar el ratón */
+}
+
